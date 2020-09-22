@@ -1,9 +1,10 @@
 {
-  "name": "truffle-flattener",
+  "name": "@zemse/solidity-flattener",
   "version": "1.5.0",
-  "description": "Truffle Flattener concats solidity files developed under Truffle with all of their dependencies",
+  "description": "Solidity Flattener concats solidity files developed under Truffle with all of their dependencies",
   "bin": {
-    "truffle-flattener": "index.js"
+    "truffle-flattener": "index.js",
+    "solidity-flattener": "index.js"
   },
   "scripts": {
     "test": "mocha tests/tests.js",
@@ -15,8 +16,8 @@
     "truffle",
     "smart-contracts"
   ],
-  "homepage": "https://github.com/nomiclabs/truffle-flattener",
-  "repository": "github:nomiclabs/truffle-flattener",
+  "homepage": "https://github.com/zemse/solidity-flattener",
+  "repository": "github:zemse/solidity-flattener",
   "author": "Nomic Labs SRL",
   "license": "MIT",
   "dependencies": {

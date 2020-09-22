@@ -1,6 +1,8 @@
-# truffle-flattener
+# solidity-flattener
 
 [![npm](https://img.shields.io/npm/v/truffle-flattener.svg)](https://www.npmjs.com/package/truffle-flattener)
+
+This is a fork of [nomiclabs/truffle-flattener](https://github.com/nomiclabs/truffle-flattener) that adds support to any project with a `contracts` directory. Thanks to the hardwork put together in the original repository.
 
 Truffle Flattener concats solidity files from Truffle and Buidler projects 
 with all of their dependencies.
@@ -15,14 +17,15 @@ our Ethereum development environment, which is much faster and flexible.
 
 # Installation
 
-`npm install truffle-flattener -g`
+`npm install @zemse/solidity-flattener -g`
 
 # Usage
 
 Just intall it with npm in your truffle project and run
-`truffle-flattener <solidity-files>`.
+`solidity-flattener <solidity-files>`.
 
 # Limitations
 
 Aliased imports (eg: `import {symbol1 as alias, symbol2} from "filename";`) are
-not supported by `truffle-flattener`.
+not supported by `solidity-flattener`.
+
