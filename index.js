@@ -144,7 +144,8 @@ async function getProjectRoot() {
     "truffle.js",
     "truffle-config.js",
     "buidler.config.js",
-    "buidler.config.ts"
+    "buidler.config.ts",
+    "contracts",
   ]);
   if (!configFilePath) {
     throw new Error(`
