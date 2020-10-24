@@ -272,7 +272,7 @@ async function main(args) {
   if (outputFilePath) {
     fs.writeFileSync(outputFilePath, outputFileContent);
   } else {
-    process.stdout.write(outputChunk);
+    process.stdout.write(outputFileContent);
   }
 }
 
