@@ -1,5 +1,5 @@
 {
-  "name": "@zemse/solidity-flattener",
+  "name": "@franzmoca/solidity-flattener",
   "version": "1.5.0",
   "description": "Solidity Flattener concats solidity files developed under Truffle with all of their dependencies",
   "bin": {
@@ -16,13 +16,13 @@
     "truffle",
     "smart-contracts"
   ],
-  "homepage": "https://github.com/zemse/solidity-flattener",
-  "repository": "github:zemse/solidity-flattener",
+  "homepage": "https://github.com/franzmoca/solidity-flattener",
+  "repository": "github:franzmoca/solidity-flattener",
   "author": "Nomic Labs SRL",
   "license": "MIT",
   "dependencies": {
     "@resolver-engine/imports-fs": "^0.2.2",
-    "@solidity-parser/parser": "^0.8.0",
+    "@solidity-parser/parser": "^0.13.2",
     "find-up": "^2.1.0",
     "mkdirp": "^1.0.4",
     "tsort": "0.0.1"
